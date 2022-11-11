@@ -15,4 +15,9 @@
     @foreach ($tweets as $tweet)
         {{$tweet->user->name}} - {{$tweet->content}} <br>
     @endforeach
+
+    <br>
+    <div>
+        {{ $tweets->links() }}
+    </div>
 </div>

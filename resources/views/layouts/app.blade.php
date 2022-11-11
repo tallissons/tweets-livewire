@@ -37,11 +37,10 @@
             @endif
 
             <!-- Page Content -->
-            <main>
+            <main class="container mx-auto p-4">
                 {{ $slot }}
             </main>
         </div>
-
         @stack('modals')
 
         @livewireScripts

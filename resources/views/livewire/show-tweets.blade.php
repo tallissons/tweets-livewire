@@ -3,7 +3,7 @@
         <h2 class="text-lg font-bold pb-4">Tweets</h2>
 
         @error('content')
-            <div class="bg-orange-200 p-1 my-1 rounded">
+            <div class="bg-orange-200 p-1 my-1 rounded border-l-4 border-orange-500">
                 <p>{{ $message }}</p>
             </div>
         @enderror

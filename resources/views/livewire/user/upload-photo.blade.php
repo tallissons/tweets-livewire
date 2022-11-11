@@ -17,7 +17,9 @@
             <input class="mb-2" type="file" id="photo" wire:model="photo">
 
             @error('photo')
-                {{ $message }}
+                <div class="bg-orange-200 p-1 my-1 rounded border-l-4 border-orange-500">
+                    <p>{{ $message }}</p>
+                </div>
             @enderror
 
             <br>
